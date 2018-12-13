@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryableExtensions", "src\QueryableExtensions.ConsoleApp\QueryableExtensions.ConsoleApp.csproj", "{4A426EE2-C53F-4B65-9FAA-3DB71E2F4ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfQueryableExtensions.ConsoleApp", "src\EfQueryableExtensions.ConsoleApp\EfQueryableExtensions.ConsoleApp.csproj", "{4A426EE2-C53F-4B65-9FAA-3DB71E2F4ABA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A005402-3960-42EF-9A10-212C2CC16A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryableExtensions", "src\QueryableExtensions\QueryableExtensions.csproj", "{6CCC8EEB-624E-4799-B415-5E7C639CDF33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfQueryableExtensions", "src\EfQueryableExtensions\EfQueryableExtensions.csproj", "{6CCC8EEB-624E-4799-B415-5E7C639CDF33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A426EE2-C53F-4B65-9FAA-3DB71E2F4ABA} = {8A005402-3960-42EF-9A10-212C2CC16A0C}
+		{6CCC8EEB-624E-4799-B415-5E7C639CDF33} = {8A005402-3960-42EF-9A10-212C2CC16A0C}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99ECBD79-11CE-4E05-9A70-DF793B861788}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6CCC8EEB-624E-4799-B415-5E7C639CDF33} = {8A005402-3960-42EF-9A10-212C2CC16A0C}
 	EndGlobalSection
 EndGlobal
